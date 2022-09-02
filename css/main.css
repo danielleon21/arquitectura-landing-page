@@ -373,7 +373,7 @@ img {
   background-image: url(../img/footer_bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: cover;
 
   display: flex;
   flex-direction: column;
@@ -389,5 +389,6 @@ img {
 .copyright {
   background-color: var(--negro);
   margin: 5rem 0 0 0;
+  font-size: 2rem;
   padding: 1rem;
 }
